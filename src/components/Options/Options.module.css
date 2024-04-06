@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 1px solid #2e6deb;
+  outline: transparent;
+  background-color: #fff;
+  color: #2e6deb;
+
+  transition: all 150ms linear;
+}
+
+.btn:hover {
+  background-color: #2e6deb;
+  color: #fff;
+}
+
+.btn:focus-visible {
+  outline: 1px solid #2e6deb;
+}

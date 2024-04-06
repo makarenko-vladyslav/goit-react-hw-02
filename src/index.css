@@ -2,6 +2,12 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 16px;
+}
+
 h1,
 h2,
 h3,
@@ -10,6 +16,8 @@ h5,
 h6,
 p {
   margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
 }
 
 p:last-child {
@@ -38,6 +46,5 @@ img {
 }
 
 .section {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }

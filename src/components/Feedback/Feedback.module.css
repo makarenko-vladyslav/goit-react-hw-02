@@ -1,0 +1,23 @@
+.text {
+  font-weight: 500;
+}
+
+.good {
+  color: #98c379;
+}
+
+.neutral {
+  color: #ffbb00;
+}
+
+.bad {
+  color: #ff0000;
+}
+
+.total {
+  color: #2e6deb;
+}
+
+.positive {
+  color: #8a2be2;
+}
