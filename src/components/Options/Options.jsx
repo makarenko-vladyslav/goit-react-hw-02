@@ -1,6 +1,6 @@
 import css from "./Options.module.css";
 
-export default function Options({ updateFeedback, totalFeedbacks }) {
+export default function Options({ updateFeedback, totalFeedbacks, resetFeedbacks }) {
   return (
     <div className="section">
       <ul className={css.list}>
@@ -22,7 +22,7 @@ export default function Options({ updateFeedback, totalFeedbacks }) {
 
         {totalFeedbacks > 0 && (
           <li className={css.listItem}>
-            <button className={css.btn} onClick={() => updateFeedback(0)}>
+            <button className={css.btn} onClick={() => resetFeedbacks()}>
               Reset
             </button>
           </li>
