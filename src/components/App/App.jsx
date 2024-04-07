@@ -9,7 +9,13 @@ export default function App() {
   const [feedbacks, setFeedbacks] = useState(() => {
     const savedObject = window.localStorage.getItem("feedbacks");
 
-    return savedObject ? JSON.parse(savedObject) : resetFeedbacks();
+    return savedObject
+      ? JSON.parse(savedObject)
+      : {
+          good: 0,
+          neutral: 0,
+          bad: 0,
+        };
   });
 
   useEffect(() => {
